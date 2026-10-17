@@ -1,0 +1,19 @@
+[project]
+name = "profiles-rest-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Salouo", email = "chenjunfenggo@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "django>=5.2.18",
+    "djangorestframework>=3.18.3",
+]
+
+[project.scripts]
+profiles-rest-api = "profiles_rest_api:main"
+
+[tool.uv]
+package = false

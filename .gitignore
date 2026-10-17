@@ -1,0 +1,103 @@
+# ==========================================
+# Python
+# ==========================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Python testing / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ==========================================
+# Virtual Environments / uv
+# ==========================================
+
+.venv/
+venv/
+env/
+ENV/
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+
+*.pem
+*.key
+
+# ==========================================
+# Django
+# ==========================================
+
+# SQLite database
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3-journal
+
+# Logs
+*.log
+logs/
+
+# Uploaded media files
+media/
+
+# Collected static files
+staticfiles/
+
+# Django local settings
+local_settings.py
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+# PyCharm / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==========================================
+# macOS
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.orig
+.cache/
